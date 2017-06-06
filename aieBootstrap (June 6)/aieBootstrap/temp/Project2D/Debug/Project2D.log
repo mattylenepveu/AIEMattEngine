@@ -1,0 +1,21 @@
+﻿  StateMachine.cpp
+  State.cpp
+  ObjectPool.cpp
+e:\aie work\3. code design\assignment\aiebootstrap\aiebootstrap\project2d\objectpool.cpp(29): error C2039: 'GetActive': is not a member of 'Entity'
+  e:\aie work\3. code design\assignment\aiebootstrap\aiebootstrap\project2d\entity.h(19): note: see declaration of 'Entity'
+e:\aie work\3. code design\assignment\aiebootstrap\aiebootstrap\project2d\objectpool.cpp(31): error C2039: 'SetActive': is not a member of 'Entity'
+  e:\aie work\3. code design\assignment\aiebootstrap\aiebootstrap\project2d\entity.h(19): note: see declaration of 'Entity'
+e:\aie work\3. code design\assignment\aiebootstrap\aiebootstrap\project2d\objectpool.cpp(41): error C2039: 'SetActive': is not a member of 'Entity'
+  e:\aie work\3. code design\assignment\aiebootstrap\aiebootstrap\project2d\entity.h(19): note: see declaration of 'Entity'
+  Menu.cpp
+  main (2).cpp
+  Game.cpp
+  Entity (2).cpp
+e:\aie work\3. code design\assignment\aiebootstrap\aiebootstrap\project2d\entity (2).cpp(5): error C2065: 'm_bActive': undeclared identifier
+e:\aie work\3. code design\assignment\aiebootstrap\aiebootstrap\project2d\entity (2).cpp(13): error C2039: 'SetActive': is not a member of 'Entity'
+  e:\aie work\3. code design\assignment\aiebootstrap\aiebootstrap\project2d\entity.h(19): note: see declaration of 'Entity'
+e:\aie work\3. code design\assignment\aiebootstrap\aiebootstrap\project2d\entity (2).cpp(15): error C2065: 'm_bActive': undeclared identifier
+e:\aie work\3. code design\assignment\aiebootstrap\aiebootstrap\project2d\entity (2).cpp(18): error C2039: 'GetActive': is not a member of 'Entity'
+  e:\aie work\3. code design\assignment\aiebootstrap\aiebootstrap\project2d\entity.h(19): note: see declaration of 'Entity'
+e:\aie work\3. code design\assignment\aiebootstrap\aiebootstrap\project2d\entity (2).cpp(20): error C2065: 'm_bActive': undeclared identifier
+  Generating Code...
