@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Game Headers">
+      <UniqueIdentifier>{bfc591ef-13be-48c0-bb16-7bd5896505eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Math Lib Headers">
+      <UniqueIdentifier>{65617f44-9d87-44cd-b1bd-6f228391480a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\State Headers">
+      <UniqueIdentifier>{63e18524-bc3a-4d51-9cae-fe8735e51a34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Container Headers">
+      <UniqueIdentifier>{7079f45f-42cd-49e5-bd1c-14831da56b43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Design Pattern Headers">
+      <UniqueIdentifier>{6e6e88c5-79c0-44df-bc7d-607f0391a561}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game cpps">
+      <UniqueIdentifier>{21fec2f0-ff04-464e-8a0a-d51c12e13c76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Math Lib cpps">
+      <UniqueIdentifier>{c25190b0-e120-45b7-b35d-b28f905a319d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\State cpps">
+      <UniqueIdentifier>{68ba572a-11de-4f9e-855c-482c63babed6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Design Pattern cpps">
+      <UniqueIdentifier>{4e83be63-b326-4513-ad37-d0926846b289}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Application2D.cpp">
+      <Filter>Source Files\Game cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="Car.cpp">
+      <Filter>Source Files\Game cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Source Files\Game cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="Flag.cpp">
+      <Filter>Source Files\Game cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="Grass.cpp">
+      <Filter>Source Files\Game cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="Human.cpp">
+      <Filter>Source Files\Game cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\Game cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="Road.cpp">
+      <Filter>Source Files\Game cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix2.cpp">
+      <Filter>Source Files\Math Lib cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix3.cpp">
+      <Filter>Source Files\Math Lib cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix4.cpp">
+      <Filter>Source Files\Math Lib cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2.cpp">
+      <Filter>Source Files\Math Lib cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3.cpp">
+      <Filter>Source Files\Math Lib cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector4.cpp">
+      <Filter>Source Files\Math Lib cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionManager.cpp">
+      <Filter>Source Files\Math Lib cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files\State cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Source Files\State cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>Source Files\State cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="StateMachine.cpp">
+      <Filter>Source Files\State cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectPool.cpp">
+      <Filter>Source Files\Design Pattern cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="Splash.cpp">
+      <Filter>Source Files\State cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="Sea.cpp">
+      <Filter>Source Files\Game cpps</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Car.h">
+      <Filter>Header Files\Game Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Header Files\Game Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Flag.h">
+      <Filter>Header Files\Game Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Grass.h">
+      <Filter>Header Files\Game Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Human.h">
+      <Filter>Header Files\Game Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Road.h">
+      <Filter>Header Files\Game Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files\State Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Header Files\State Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix2.h">
+      <Filter>Header Files\Math Lib Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix3.h">
+      <Filter>Header Files\Math Lib Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix4.h">
+      <Filter>Header Files\Math Lib Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Header Files\Math Lib Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>Header Files\Math Lib Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector4.h">
+      <Filter>Header Files\Math Lib Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="VectorCast.h">
+      <Filter>Header Files\Math Lib Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Application2D.h">
+      <Filter>Header Files\Game Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>Header Files\Math Lib Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionManager.h">
+      <Filter>Header Files\Math Lib Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph.h">
+      <Filter>Header Files\Container Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphNode.h">
+      <Filter>Header Files\Container Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedList.h">
+      <Filter>Header Files\Container Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ListNode.h">
+      <Filter>Header Files\Container Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Stack.h">
+      <Filter>Header Files\Container Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicArray.h">
+      <Filter>Header Files\Container Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>Header Files\State Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="StateMachine.h">
+      <Filter>Header Files\State Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectPool.h">
+      <Filter>Header Files\Design Pattern Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files\Design Pattern Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Header Files\Design Pattern Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Splash.h">
+      <Filter>Header Files\State Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Sea.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AssociativeArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

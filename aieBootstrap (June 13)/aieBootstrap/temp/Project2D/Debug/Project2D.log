@@ -1,0 +1,4 @@
+﻿  Car.cpp
+e:\aie work\3. code design\assignment\aiebootstrap\aiebootstrap\project2d\car.cpp(49): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+e:\aie work\3. code design\assignment\aiebootstrap\aiebootstrap\project2d\car.cpp(52): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Project2D.vcxproj -> E:\AIE Work\3. Code Design\Assignment\aieBootstrap\aieBootstrap\temp\Project2D\Debug\Project2D.exe
