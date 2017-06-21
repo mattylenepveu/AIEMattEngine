@@ -97,6 +97,22 @@ public:
 	//--------------------------------------------------------------------------------------
 	Type GetType();
 
+	//--------------------------------------------------------------------------------------
+	// Sets an object to bActive if an object is in game (used for object pool)
+	//
+	// Parameters:
+	//		bActive: Set to true, if an object is drawn on screen in game
+	//--------------------------------------------------------------------------------------
+	void SetActive(bool active);
+
+	//--------------------------------------------------------------------------------------
+	// Allows other functions to check if an object is active
+	//
+	// Return:
+	//		Returns a boolean
+	//--------------------------------------------------------------------------------------
+	bool GetActive();
+
 protected:
 	// Sets the parent as an entity pointer
 	Entity* Parent;
@@ -115,4 +131,7 @@ protected:
 
 	// Sets the type variable as a type
 	Type type;
+
+	// Used for "SetActive" and "GetActive" functions
+	bool bActive;
 };

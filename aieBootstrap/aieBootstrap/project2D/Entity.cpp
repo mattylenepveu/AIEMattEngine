@@ -15,6 +15,9 @@ Entity::Entity()
 	// Sets the top left and bottom right by default
 	collider.topLeft = Vector2(-30, -30);
 	collider.bottomRight = Vector2(30, 30);
+
+	// Sets variable to false by default
+	bActive = false;
 }
 
 //--------------------------------------------------------------------------------------
@@ -137,4 +140,26 @@ void Entity::SetType(Type a)
 Type Entity::GetType()
 {
 	return type;
+}
+
+//--------------------------------------------------------------------------------------
+// Sets an object to bActive if an object is in game (used for object pool)
+//
+// Parameters:
+//		bActive: Set to true, if an object is drawn on screen in game
+//--------------------------------------------------------------------------------------
+void Entity::SetActive(bool active)
+{
+	bActive = active;
+}
+
+//--------------------------------------------------------------------------------------
+// Allows other functions to check if an object is active
+//
+// Return:
+//		Returns a boolean
+//--------------------------------------------------------------------------------------
+bool Entity::GetActive()
+{
+	return bActive;
 }

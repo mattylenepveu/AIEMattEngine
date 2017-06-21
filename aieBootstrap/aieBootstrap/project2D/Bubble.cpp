@@ -12,7 +12,7 @@ Bubble::~Bubble()
 
 void Bubble::Update(float deltaTime, Renderer2D* m_2dRenderer)
 {
-
+	// Empty
 }
 
 void Bubble::Draw(Renderer2D* m_2dRenderer)
