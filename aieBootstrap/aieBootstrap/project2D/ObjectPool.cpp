@@ -9,7 +9,7 @@ ObjectPool::ObjectPool(int nMaxSize)
 
 	for (int i = 0; i < nMaxSize; ++i)
 	{
-		m_pPool[i] = new Bubble();
+		m_pPool[i] = new Entity();
 	}
 }
 

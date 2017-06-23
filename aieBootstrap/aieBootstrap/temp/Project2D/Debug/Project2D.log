@@ -1,83 +1,26 @@
-﻿  ObjectPool.cpp
-     Creating library C:\Users\s171760\Desktop\AIEGameProject\aieBootstrap\aieBootstrap\temp\Project2D\Debug\Project2D.lib and object C:\Users\s171760\Desktop\AIEGameProject\aieBootstrap\aieBootstrap\temp\Project2D\Debug\Project2D.exp
-LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
-Human.obj : warning LNK4217: locally defined symbol ??BMatrix3@@QAEPAMXZ (public: __thiscall Matrix3::operator float *(void)) imported in function "public: __thiscall Human::Human(void)" (??0Human@@QAE@XZ)
-Road.obj : warning LNK4217: locally defined symbol ??BMatrix3@@QAEPAMXZ (public: __thiscall Matrix3::operator float *(void)) imported in function "public: __thiscall Road::Road(class Vector2)" (??0Road@@QAE@VVector2@@@Z)
-Sea.obj : warning LNK4217: locally defined symbol ??BMatrix3@@QAEPAMXZ (public: __thiscall Matrix3::operator float *(void)) imported in function "public: __thiscall Sea::Sea(class Vector2)" (??0Sea@@QAE@VVector2@@@Z)
-Bubble.obj : warning LNK4217: locally defined symbol ??BMatrix3@@QAEPAMXZ (public: __thiscall Matrix3::operator float *(void)) imported in function "public: void __thiscall Bubble::Draw(class aie::Renderer2D *)" (?Draw@Bubble@@QAEXPAVRenderer2D@aie@@@Z)
-Car.obj : warning LNK4049: locally defined symbol ??BMatrix3@@QAEPAMXZ (public: __thiscall Matrix3::operator float *(void)) imported
-Flag.obj : warning LNK4217: locally defined symbol ??BMatrix3@@QAEPAMXZ (public: __thiscall Matrix3::operator float *(void)) imported in function __unwindfunclet$??0Flag@@QAE@XZ$0
-Grass.obj : warning LNK4217: locally defined symbol ??BMatrix3@@QAEPAMXZ (public: __thiscall Matrix3::operator float *(void)) imported in function "public: __thiscall Grass::Grass(class Vector2)" (??0Grass@@QAE@VVector2@@@Z)
-Car.obj : warning LNK4217: locally defined symbol ??0Vector2@@QAE@XZ (public: __thiscall Vector2::Vector2(void)) imported in function "public: __thiscall Car::Car(void)" (??0Car@@QAE@XZ)
-Entity.obj : warning LNK4049: locally defined symbol ??0Vector2@@QAE@XZ (public: __thiscall Vector2::Vector2(void)) imported
-Game.obj : warning LNK4049: locally defined symbol ??0Vector2@@QAE@XZ (public: __thiscall Vector2::Vector2(void)) imported
-Matrix2.obj : warning LNK4049: locally defined symbol ??0Vector2@@QAE@XZ (public: __thiscall Vector2::Vector2(void)) imported
-Car.obj : warning LNK4217: locally defined symbol ??0Vector2@@QAE@MM@Z (public: __thiscall Vector2::Vector2(float,float)) imported in function "public: void __thiscall Car::Update(float,class aie::Renderer2D *)" (?Update@Car@@QAEXMPAVRenderer2D@aie@@@Z)
-Entity.obj : warning LNK4049: locally defined symbol ??0Vector2@@QAE@MM@Z (public: __thiscall Vector2::Vector2(float,float)) imported
-Matrix2.obj : warning LNK4049: locally defined symbol ??0Vector2@@QAE@MM@Z (public: __thiscall Vector2::Vector2(float,float)) imported
-Matrix4.obj : warning LNK4049: locally defined symbol ??0Vector2@@QAE@MM@Z (public: __thiscall Vector2::Vector2(float,float)) imported
-Sea.obj : warning LNK4049: locally defined symbol ??1Vector2@@QAE@XZ (public: __thiscall Vector2::~Vector2(void)) imported
-Grass.obj : warning LNK4049: locally defined symbol ??1Vector2@@QAE@XZ (public: __thiscall Vector2::~Vector2(void)) imported
-Matrix2.obj : warning LNK4049: locally defined symbol ??1Vector2@@QAE@XZ (public: __thiscall Vector2::~Vector2(void)) imported
-Matrix4.obj : warning LNK4049: locally defined symbol ??1Vector2@@QAE@XZ (public: __thiscall Vector2::~Vector2(void)) imported
-Road.obj : warning LNK4049: locally defined symbol ??1Vector2@@QAE@XZ (public: __thiscall Vector2::~Vector2(void)) imported
-Car.obj : warning LNK4217: locally defined symbol ??1Vector2@@QAE@XZ (public: __thiscall Vector2::~Vector2(void)) imported in function __unwindfunclet$??0Car@@QAE@XZ$1
-CollisionManager.obj : warning LNK4049: locally defined symbol ??1Vector2@@QAE@XZ (public: __thiscall Vector2::~Vector2(void)) imported
-Entity.obj : warning LNK4049: locally defined symbol ??1Vector2@@QAE@XZ (public: __thiscall Vector2::~Vector2(void)) imported
-Game.obj : warning LNK4049: locally defined symbol ??1Vector2@@QAE@XZ (public: __thiscall Vector2::~Vector2(void)) imported
-Car.obj : warning LNK4217: locally defined symbol ??HVector2@@QAE?AV0@ABV0@@Z (public: class Vector2 __thiscall Vector2::operator+(class Vector2 const &)) imported in function "public: void __thiscall Car::Update(float,class aie::Renderer2D *)" (?Update@Car@@QAEXMPAVRenderer2D@aie@@@Z)
-Car.obj : warning LNK4217: locally defined symbol ??DVector2@@QAE?AV0@M@Z (public: class Vector2 __thiscall Vector2::operator*(float)) imported in function "public: void __thiscall Car::Update(float,class aie::Renderer2D *)" (?Update@Car@@QAEXMPAVRenderer2D@aie@@@Z)
-Car.obj : warning LNK4217: locally defined symbol ??KVector2@@QAE?AV0@M@Z (public: class Vector2 __thiscall Vector2::operator/(float)) imported in function "public: void __thiscall Car::Update(float,class aie::Renderer2D *)" (?Update@Car@@QAEXMPAVRenderer2D@aie@@@Z)
-Car.obj : warning LNK4217: locally defined symbol ??GVector2@@QAE?AV0@XZ (public: class Vector2 __thiscall Vector2::operator-(void)) imported in function "public: void __thiscall Car::Update(float,class aie::Renderer2D *)" (?Update@Car@@QAEXMPAVRenderer2D@aie@@@Z)
-Car.obj : warning LNK4217: locally defined symbol ??YVector2@@QAE?AV0@ABV0@@Z (public: class Vector2 __thiscall Vector2::operator+=(class Vector2 const &)) imported in function "public: void __thiscall Car::Update(float,class aie::Renderer2D *)" (?Update@Car@@QAEXMPAVRenderer2D@aie@@@Z)
-CollisionManager.obj : warning LNK4049: locally defined symbol ??YVector2@@QAE?AV0@ABV0@@Z (public: class Vector2 __thiscall Vector2::operator+=(class Vector2 const &)) imported
-Human.obj : warning LNK4217: locally defined symbol ??0Matrix3@@QAE@XZ (public: __thiscall Matrix3::Matrix3(void)) imported in function "public: __thiscall Human::Human(void)" (??0Human@@QAE@XZ)
-Road.obj : warning LNK4049: locally defined symbol ??0Matrix3@@QAE@XZ (public: __thiscall Matrix3::Matrix3(void)) imported
-Sea.obj : warning LNK4049: locally defined symbol ??0Matrix3@@QAE@XZ (public: __thiscall Matrix3::Matrix3(void)) imported
-Car.obj : warning LNK4217: locally defined symbol ??0Matrix3@@QAE@XZ (public: __thiscall Matrix3::Matrix3(void)) imported in function "public: __thiscall Car::Car(void)" (??0Car@@QAE@XZ)
-Entity.obj : warning LNK4049: locally defined symbol ??0Matrix3@@QAE@XZ (public: __thiscall Matrix3::Matrix3(void)) imported
-Flag.obj : warning LNK4049: locally defined symbol ??0Matrix3@@QAE@XZ (public: __thiscall Matrix3::Matrix3(void)) imported
-Grass.obj : warning LNK4049: locally defined symbol ??0Matrix3@@QAE@XZ (public: __thiscall Matrix3::Matrix3(void)) imported
-Human.obj : warning LNK4049: locally defined symbol ??1Matrix3@@QAE@XZ (public: __thiscall Matrix3::~Matrix3(void)) imported
-Road.obj : warning LNK4049: locally defined symbol ??1Matrix3@@QAE@XZ (public: __thiscall Matrix3::~Matrix3(void)) imported
-Sea.obj : warning LNK4217: locally defined symbol ??1Matrix3@@QAE@XZ (public: __thiscall Matrix3::~Matrix3(void)) imported in function __unwindfunclet$??0Sea@@QAE@VVector2@@@Z$3
-Car.obj : warning LNK4217: locally defined symbol ??1Matrix3@@QAE@XZ (public: __thiscall Matrix3::~Matrix3(void)) imported in function "public: __thiscall Car::Car(void)" (??0Car@@QAE@XZ)
-Entity.obj : warning LNK4049: locally defined symbol ??1Matrix3@@QAE@XZ (public: __thiscall Matrix3::~Matrix3(void)) imported
-Flag.obj : warning LNK4049: locally defined symbol ??1Matrix3@@QAE@XZ (public: __thiscall Matrix3::~Matrix3(void)) imported
-Grass.obj : warning LNK4049: locally defined symbol ??1Matrix3@@QAE@XZ (public: __thiscall Matrix3::~Matrix3(void)) imported
-Human.obj : warning LNK4049: locally defined symbol ??DMatrix3@@QAE?AV0@ABV0@@Z (public: class Matrix3 __thiscall Matrix3::operator*(class Matrix3 const &)) imported
-Road.obj : warning LNK4049: locally defined symbol ??DMatrix3@@QAE?AV0@ABV0@@Z (public: class Matrix3 __thiscall Matrix3::operator*(class Matrix3 const &)) imported
-Sea.obj : warning LNK4049: locally defined symbol ??DMatrix3@@QAE?AV0@ABV0@@Z (public: class Matrix3 __thiscall Matrix3::operator*(class Matrix3 const &)) imported
-Car.obj : warning LNK4217: locally defined symbol ??DMatrix3@@QAE?AV0@ABV0@@Z (public: class Matrix3 __thiscall Matrix3::operator*(class Matrix3 const &)) imported in function "public: __thiscall Car::Car(void)" (??0Car@@QAE@XZ)
-Entity.obj : warning LNK4049: locally defined symbol ??DMatrix3@@QAE?AV0@ABV0@@Z (public: class Matrix3 __thiscall Matrix3::operator*(class Matrix3 const &)) imported
-Flag.obj : warning LNK4049: locally defined symbol ??DMatrix3@@QAE?AV0@ABV0@@Z (public: class Matrix3 __thiscall Matrix3::operator*(class Matrix3 const &)) imported
-Grass.obj : warning LNK4049: locally defined symbol ??DMatrix3@@QAE?AV0@ABV0@@Z (public: class Matrix3 __thiscall Matrix3::operator*(class Matrix3 const &)) imported
-Car.obj : warning LNK4217: locally defined symbol ?setRotateZ@Matrix3@@QAEXM@Z (public: void __thiscall Matrix3::setRotateZ(float)) imported in function "public: void __thiscall Car::Update(float,class aie::Renderer2D *)" (?Update@Car@@QAEXMPAVRenderer2D@aie@@@Z)
-Car.obj : warning LNK4217: locally defined symbol ?setPos@Matrix3@@QAEXMM@Z (public: void __thiscall Matrix3::setPos(float,float)) imported in function "public: __thiscall Car::Car(void)" (??0Car@@QAE@XZ)
-Entity.obj : warning LNK4049: locally defined symbol ?setPos@Matrix3@@QAEXMM@Z (public: void __thiscall Matrix3::setPos(float,float)) imported
-Flag.obj : warning LNK4217: locally defined symbol ?setPos@Matrix3@@QAEXMM@Z (public: void __thiscall Matrix3::setPos(float,float)) imported in function "public: __thiscall Flag::Flag(void)" (??0Flag@@QAE@XZ)
-Human.obj : warning LNK4049: locally defined symbol ?setPos@Matrix3@@QAEXMM@Z (public: void __thiscall Matrix3::setPos(float,float)) imported
-Car.obj : warning LNK4217: locally defined symbol ?setPos@Matrix3@@QAEXABVVector2@@@Z (public: void __thiscall Matrix3::setPos(class Vector2 const &)) imported in function "public: void __thiscall Car::Update(float,class aie::Renderer2D *)" (?Update@Car@@QAEXMPAVRenderer2D@aie@@@Z)
-Grass.obj : warning LNK4049: locally defined symbol ?setPos@Matrix3@@QAEXABVVector2@@@Z (public: void __thiscall Matrix3::setPos(class Vector2 const &)) imported
-Road.obj : warning LNK4049: locally defined symbol ?setPos@Matrix3@@QAEXABVVector2@@@Z (public: void __thiscall Matrix3::setPos(class Vector2 const &)) imported
-Sea.obj : warning LNK4049: locally defined symbol ?setPos@Matrix3@@QAEXABVVector2@@@Z (public: void __thiscall Matrix3::setPos(class Vector2 const &)) imported
-CollisionManager.obj : warning LNK4217: locally defined symbol ??GVector2@@QAE?AV0@ABV0@@Z (public: class Vector2 __thiscall Vector2::operator-(class Vector2 const &)) imported in function "public: class Entity * __thiscall CollisionManager::TestSphereCollision(class Entity *)" (?TestSphereCollision@CollisionManager@@QAEPAVEntity@@PAV2@@Z)
-CollisionManager.obj : warning LNK4217: locally defined symbol ?sqrMagnitude@Vector2@@QAEMXZ (public: float __thiscall Vector2::sqrMagnitude(void)) imported in function "public: class Entity * __thiscall CollisionManager::TestSphereCollision(class Entity *)" (?TestSphereCollision@CollisionManager@@QAEPAVEntity@@PAV2@@Z)
-CollisionManager.obj : warning LNK4217: locally defined symbol ?clamp@Vector2@@QAE?AV1@V1@0@Z (public: class Vector2 __thiscall Vector2::clamp(class Vector2,class Vector2)) imported in function "public: class Entity * __thiscall CollisionManager::TestSphereCollision(class Entity *)" (?TestSphereCollision@CollisionManager@@QAEPAVEntity@@PAV2@@Z)
-CollisionManager.obj : warning LNK4217: locally defined symbol ??OVector2@@QAE_NABV0@@Z (public: bool __thiscall Vector2::operator>(class Vector2 const &)) imported in function "public: class Entity * __thiscall CollisionManager::TestBoxCollision(class Entity *)" (?TestBoxCollision@CollisionManager@@QAEPAVEntity@@PAV2@@Z)
-CollisionManager.obj : warning LNK4217: locally defined symbol ??MVector2@@QAE_NABV0@@Z (public: bool __thiscall Vector2::operator<(class Vector2 const &)) imported in function "public: class Entity * __thiscall CollisionManager::TestBoxCollision(class Entity *)" (?TestBoxCollision@CollisionManager@@QAEPAVEntity@@PAV2@@Z)
-Matrix2.obj : warning LNK4217: locally defined symbol ?Magnitude@Vector2@@QAEMXZ (public: float __thiscall Vector2::Magnitude(void)) imported in function "public: class Vector2 __thiscall Matrix2::getScale(void)" (?getScale@Matrix2@@QAE?AVVector2@@XZ)
-Matrix3.obj : warning LNK4217: locally defined symbol ??0Vector3@@QAE@XZ (public: __thiscall Vector3::Vector3(void)) imported in function "public: class Vector3 __thiscall Matrix3::operator*(class Vector3 const &)" (??DMatrix3@@QAE?AVVector3@@ABV1@@Z)
-Matrix3.obj : warning LNK4217: locally defined symbol ??0Vector3@@QAE@MMM@Z (public: __thiscall Vector3::Vector3(float,float,float)) imported in function "public: class Vector3 __thiscall Matrix3::getScale(void)" (?getScale@Matrix3@@QAE?AVVector3@@XZ)
-Matrix4.obj : warning LNK4049: locally defined symbol ??0Vector3@@QAE@MMM@Z (public: __thiscall Vector3::Vector3(float,float,float)) imported
-Matrix3.obj : warning LNK4217: locally defined symbol ??1Vector3@@QAE@XZ (public: __thiscall Vector3::~Vector3(void)) imported in function "public: class Vector3 __thiscall Matrix3::operator*(class Vector3 const &)" (??DMatrix3@@QAE?AVVector3@@ABV1@@Z)
-Matrix4.obj : warning LNK4049: locally defined symbol ??1Vector3@@QAE@XZ (public: __thiscall Vector3::~Vector3(void)) imported
-Matrix3.obj : warning LNK4217: locally defined symbol ?Magnitude@Vector3@@QAEMXZ (public: float __thiscall Vector3::Magnitude(void)) imported in function "public: class Vector3 __thiscall Matrix3::getScale(void)" (?getScale@Matrix3@@QAE?AVVector3@@XZ)
-Matrix4.obj : warning LNK4217: locally defined symbol ??0Vector4@@QAE@XZ (public: __thiscall Vector4::Vector4(void)) imported in function "public: class Vector4 __thiscall Matrix4::operator*(class Vector4 const &)" (??DMatrix4@@QAE?AVVector4@@ABV1@@Z)
-Matrix4.obj : warning LNK4217: locally defined symbol ??0Vector4@@QAE@MMMM@Z (public: __thiscall Vector4::Vector4(float,float,float,float)) imported in function "class Vector4 __cdecl CastTo<class Vector4,class Vector2>(class Vector2)" (??$CastTo@VVector4@@VVector2@@@@YA?AVVector4@@VVector2@@@Z)
-Matrix4.obj : warning LNK4217: locally defined symbol ??1Vector4@@QAE@XZ (public: __thiscall Vector4::~Vector4(void)) imported in function "class Vector2 __cdecl CastTo<class Vector2,class Vector4>(class Vector4)" (??$CastTo@VVector2@@VVector4@@@@YA?AVVector2@@VVector4@@@Z)
-Matrix4.obj : warning LNK4217: locally defined symbol ?Magnitude@Vector4@@QAEMXZ (public: float __thiscall Vector4::Magnitude(void)) imported in function "public: class Vector4 __thiscall Matrix4::getScale(void)" (?getScale@Matrix4@@QAE?AVVector4@@XZ)
-Matrix4.obj : warning LNK4217: locally defined symbol ??GVector3@@QAE?AV0@ABV0@@Z (public: class Vector3 __thiscall Vector3::operator-(class Vector3 const &)) imported in function "public: void __thiscall Matrix4::LookAt(class Vector3,class Vector3,class Vector3)" (?LookAt@Matrix4@@QAEXVVector3@@V2@1@Z)
-Matrix4.obj : warning LNK4217: locally defined symbol ?Cross@Vector3@@QAE?AV1@V1@@Z (public: class Vector3 __thiscall Vector3::Cross(class Vector3)) imported in function "public: void __thiscall Matrix4::LookAt(class Vector3,class Vector3,class Vector3)" (?LookAt@Matrix4@@QAEXVVector3@@V2@1@Z)
-Matrix4.obj : warning LNK4217: locally defined symbol ?Normalise@Vector3@@QAEXXZ (public: void __thiscall Vector3::Normalise(void)) imported in function "public: void __thiscall Matrix4::LookAt(class Vector3,class Vector3,class Vector3)" (?LookAt@Matrix4@@QAEXVVector3@@V2@1@Z)
-  Project2D.vcxproj -> C:\Users\s171760\Desktop\AIEGameProject\aieBootstrap\aieBootstrap\temp\Project2D\Debug\Project2D.exe
+﻿  StateMachine.cpp
+  State.cpp
+  Pause.cpp
+  Menu.cpp
+  Loading.cpp
+c:\users\s171760\desktop\aiemattengine_repo\aiebootstrap\aiebootstrap\project2d\loading.cpp(91): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Game.cpp
+c:\users\s171760\desktop\aiemattengine_repo\aiebootstrap\aiebootstrap\project2d\game.cpp(21): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\s171760\desktop\aiemattengine_repo\aiebootstrap\aiebootstrap\project2d\game.cpp(22): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\s171760\desktop\aiemattengine_repo\aiebootstrap\aiebootstrap\project2d\game.cpp(34): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\s171760\desktop\aiemattengine_repo\aiebootstrap\aiebootstrap\project2d\game.cpp(35): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\s171760\desktop\aiemattengine_repo\aiebootstrap\aiebootstrap\project2d\game.cpp(45): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  Credits.cpp
+  Generating Code...
+  Compiling...
+  main.cpp
+  Splash.cpp
+  ChooseCar.cpp
+c:\users\s171760\desktop\aiemattengine_repo\aiebootstrap\aiebootstrap\project2d\choosecar.cpp(109): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\s171760\desktop\aiemattengine_repo\aiebootstrap\aiebootstrap\project2d\choosecar.cpp(113): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Car.cpp
+c:\users\s171760\desktop\aiemattengine_repo\aiebootstrap\aiebootstrap\project2d\car.cpp(94): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\s171760\desktop\aiemattengine_repo\aiebootstrap\aiebootstrap\project2d\car.cpp(97): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Application2D.cpp
+  Generating Code...
+  Project2D.vcxproj -> C:\Users\s171760\Desktop\AIEMattEngine_Repo\aieBootstrap\aieBootstrap\temp\Project2D\Debug\Project2D.exe

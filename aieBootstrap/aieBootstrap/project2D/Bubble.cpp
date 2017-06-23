@@ -10,10 +10,7 @@ Bubble::~Bubble()
 	delete texture;
 }
 
-void Bubble::Update(float deltaTime, Renderer2D* m_2dRenderer)
-{
-	// Empty
-}
+void Bubble::Update(float deltaTime, Renderer2D* m_2dRenderer) {}
 
 void Bubble::Draw(Renderer2D* m_2dRenderer)
 {

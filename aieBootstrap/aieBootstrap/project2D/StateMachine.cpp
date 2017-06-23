@@ -1,19 +1,34 @@
 #include "StateMachine.h"
 #include <crtdbg.h>
 
+//--------------------------------------------------------------------------------------
+// Default Constructor.
+//--------------------------------------------------------------------------------------
 StateMachine::StateMachine()
 {
+	// Sets variable to false by default
 	bBackUpdate = false;
 }
 
+//--------------------------------------------------------------------------------------
+// Default Destructor.
+//--------------------------------------------------------------------------------------
 StateMachine::~StateMachine()
 {
+	// Deletes everything on the statelist via a for loop
 	for (int i = 0; i < m_StateList.Size(); ++i)
 	{
 		delete m_StateList[i];
 	}
 }
 
+//--------------------------------------------------------------------------------------
+// Calls the onUpdate function for the top state on the stack
+//
+// Paramaters:
+//		fDeltaTime: Keeps track of real time, used for movement and waiting periods
+//		m_2dRenderer: Is used for access to the renderer class
+//--------------------------------------------------------------------------------------
 void StateMachine::Update(float fDeltaTime, Renderer2D* m_2dRenderer)
 {
 	if (m_CurrentStack.Size() <= 0)
@@ -35,7 +50,6 @@ void StateMachine::Draw(Renderer2D* m_2dRenderer)
 
 void StateMachine::PushState(int nStateIndex)
 {
-	_ASSERT(nStateIndex < m_StateList.Size());
 	if (nStateIndex >= m_StateList.Size())
 		return;
 
@@ -49,6 +63,7 @@ void StateMachine::PushState(int nStateIndex)
 
 void StateMachine::AddState(int nStateIndex, State* pState)
 {
+	_ASSERT(pState);
 	m_StateList.Insert(nStateIndex, pState);
 }
 
