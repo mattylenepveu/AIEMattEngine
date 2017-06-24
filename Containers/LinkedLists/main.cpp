@@ -1,7 +1,6 @@
 #include <iostream>
 #include "DynamicArray.h"
 #include "Stack.h"
-#include "AssociativeArray.h"
 using namespace std;
 
 //--------------------------------------------------------------------------------------
@@ -106,5 +105,6 @@ int main()
 
 	system("pause");
 	system("cls");
+
 	return 0;
 }
