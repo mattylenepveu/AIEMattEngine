@@ -1,5 +1,6 @@
 #include "Credits.h"
 #include "StateMachine.h"
+#include <crtdbg.h>
 
 //--------------------------------------------------------------------------------------
 // Default Constructor.
@@ -8,6 +9,7 @@ Credits::Credits()
 {
 	// Creates a "new" font
 	m_font = new Font("./font/consolas_bold.ttf", 32);
+	_ASSERT(m_font);
 }
 
 //--------------------------------------------------------------------------------------

@@ -5,6 +5,7 @@
 #include "Application2D.h"
 #include "CollisionManager.h"
 #include "Player.h"
+#include <crtdbg.h>
 using namespace aie;
 
 //--------------------------------------------------------------------------------------
@@ -14,7 +15,9 @@ Car::Car()
 {
 	// Defines both the red and blue car
 	textureA = new Texture("./textures/RedCar.png");
+	_ASSERT(textureA);
 	textureB = new Texture("./textures/BlueCar.png");
+	_ASSERT(textureB);
 
 	// Sets the starting position of the car
 	Matrix3 changePos;

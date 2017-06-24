@@ -1,4 +1,6 @@
 #pragma once
+#include <crtdbg.h>
+
 class Player
 {
 public:
@@ -13,7 +15,7 @@ public:
 	//--------------------------------------------------------------------------------------
 	// Acts as our constuctor and creates a "new" instance
 	//--------------------------------------------------------------------------------------
-	static void create() { m_instance = new Player(); }
+	static void create() { m_instance = new Player(); _ASSERT(m_instance); }
 
 	//--------------------------------------------------------------------------------------
 	// Acts as our destructor and deletes the instance to prevent memory leaks

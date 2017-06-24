@@ -1,5 +1,6 @@
 #include "Loading.h"
 #include "StateMachine.h"
+#include <crtdbg.h>
 
 //--------------------------------------------------------------------------------------
 // Default Constructor.
@@ -14,6 +15,7 @@ Loading::Loading()
 
 	// Creates a "new" font
 	m_font = new Font("./font/consolas_bold.ttf", 32);
+	_ASSERT(m_font);
 }
 
 //--------------------------------------------------------------------------------------

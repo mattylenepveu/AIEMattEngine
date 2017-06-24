@@ -9,6 +9,7 @@
 #include "Pause.h"
 #include "Credits.h"
 #include "Player.h"
+#include <crtdbg.h>
 using namespace aie;
 
 //--------------------------------------------------------------------------------------
@@ -37,9 +38,11 @@ bool Application2D::startup()
 
 	// Makes a "new" renderer
 	m_2dRenderer = new Renderer2D();
+	_ASSERT(m_2dRenderer);
 	
 	// Makes a "new" state machine
 	m_pStateMachine = new StateMachine();
+	_ASSERT(m_pStateMachine);
 
 	// Creates "new" states
 	m_pStateMachine->AddState(0, new Splash());

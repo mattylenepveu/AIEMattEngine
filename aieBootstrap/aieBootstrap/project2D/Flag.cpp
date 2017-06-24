@@ -1,5 +1,6 @@
 #include "Flag.h"
 #include "CollisionManager.h"
+#include <crtdbg.h>
 
 //--------------------------------------------------------------------------------------
 // Default Constructor.
@@ -8,6 +9,7 @@ Flag::Flag()
 {
 	// Creates a new texture
 	m_pTexture = new Texture("./textures/Flag.png");
+	_ASSERT(m_pTexture);
 
 	// Sets the position of the flag
 	Matrix3 changePos;

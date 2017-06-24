@@ -1,5 +1,6 @@
 #include "Grass.h"
 #include "CollisionManager.h"
+#include <crtdbg.h>
 
 //--------------------------------------------------------------------------------------
 // Default Constructor.
@@ -11,6 +12,7 @@ Grass::Grass(Vector2 pos)
 {
 	// Creates a "new" texture
 	texture = new Texture("./textures/Grass.png");
+	_ASSERT(texture);
 
 	// Sets the position of grass, based on whats being passed in
 	Matrix3 changePos;

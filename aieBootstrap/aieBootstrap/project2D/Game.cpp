@@ -3,6 +3,7 @@
 #include "Player.h"
 #include "StateMachine.h"
 #include "Input.h"
+#include <crtdbg.h>
 
 //--------------------------------------------------------------------------------------
 // Default Constructor.
@@ -34,6 +35,7 @@ Game::Game()
 			pos.x = j * 120 - 3000;
 			pos.y = i * 120 - 500;
 			m_pGrass[i][j] = new Grass(pos);
+			_ASSERT(m_pGrass[i][j]);
 		}
 	}
 
@@ -44,16 +46,20 @@ Game::Game()
 		pos.x = 0;
 		pos.y = i * 256 - 433;
 		m_pRoad[i] = new Road(pos);
+		_ASSERT(m_pRoad[i]);
 	}
 
 	// Creates a "new" flag
 	m_pFlag = new Flag();
+	_ASSERT(m_pFlag);
 
 	// Creates a "new" human
 	m_pHuman = new Human();
+	_ASSERT(m_pHuman);
 
 	// Creates a "new" car
 	m_pCar = new Car();
+	_ASSERT(m_pCar);
 
 	// Sets default values to variables
 	m_cameraX = 0;

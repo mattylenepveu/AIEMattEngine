@@ -1,6 +1,7 @@
 #include "Pause.h"
 #include "StateMachine.h"
 #include "Input.h"
+#include <crtdbg.h>
 
 //--------------------------------------------------------------------------------------
 // Default Constructor.
@@ -9,6 +10,7 @@ Pause::Pause()
 {
 	// Creates a "new" font
 	m_font = new Font("./font/consolas_bold.ttf", 32);
+	_ASSERT(m_font);
 }
 
 //--------------------------------------------------------------------------------------

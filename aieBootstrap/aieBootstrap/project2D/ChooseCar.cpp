@@ -2,6 +2,7 @@
 #include "Input.h"
 #include "StateMachine.h"
 #include "Player.h"
+#include <crtdbg.h>
 
 //--------------------------------------------------------------------------------------
 // Default Constructor.
@@ -19,6 +20,7 @@ ChooseCar::ChooseCar()
 
 	// Creates a "new" font for use in state
 	m_font = new Font("./font/consolas_bold.ttf", 32);
+	_ASSERT(m_font);
 }
 
 //--------------------------------------------------------------------------------------

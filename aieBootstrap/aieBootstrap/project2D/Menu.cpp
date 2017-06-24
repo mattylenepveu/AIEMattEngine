@@ -1,6 +1,7 @@
 #include "Menu.h"
 #include "Input.h"
 #include "StateMachine.h"
+#include <crtdbg.h>
 
 //--------------------------------------------------------------------------------------
 // Default Constructor.
@@ -16,6 +17,7 @@ Menu::Menu()
 
 	// Creates a new font
 	m_font = new Font("./font/consolas_bold.ttf", 32);
+	_ASSERT(m_font);
 }
 
 //--------------------------------------------------------------------------------------
@@ -23,7 +25,6 @@ Menu::Menu()
 //--------------------------------------------------------------------------------------
 Menu::~Menu()
 {
-	// Deletes the font
 	delete m_font;
 }
 

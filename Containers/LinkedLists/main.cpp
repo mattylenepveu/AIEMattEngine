@@ -1,10 +1,15 @@
 #include <iostream>
-using namespace std;
-
 #include "DynamicArray.h"
 #include "Stack.h"
 #include "AssociativeArray.h"
+using namespace std;
 
+//--------------------------------------------------------------------------------------
+// Main function where tests are conducted
+//
+// Return:
+//		Returns zero by default
+//--------------------------------------------------------------------------------------
 int main()
 {
 	// Dynamic Array Unit Test 
@@ -88,6 +93,18 @@ int main()
 	}
 	cout << endl;
 
+	myArray.Clear();
+	cout << "Clearing array..." << endl;
+	cout << endl;
+
+	int size = myArray.Size();
+	cout << "Size of the Array: " << size << endl;
+	cout << endl;
+
+	cout << "Dynamic Array Tested!" << endl;
+	cout << endl;
+
 	system("pause");
+	system("cls");
 	return 0;
 }

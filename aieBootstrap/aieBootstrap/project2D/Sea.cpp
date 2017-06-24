@@ -1,5 +1,6 @@
 #include "Sea.h"
 #include "CollisionManager.h"
+#include <crtdbg.h>
 
 //--------------------------------------------------------------------------------------
 // Default Constructor.
@@ -11,6 +12,7 @@ Sea::Sea(Vector2 pos)
 {
 	// Creates a "new" texture
 	m_pTexture = new Texture("./textures/Water.png");
+	_ASSERT(m_pTexture);
 
 	// Sets the position of the sea based on whats being passed in
 	Matrix3 changePos;

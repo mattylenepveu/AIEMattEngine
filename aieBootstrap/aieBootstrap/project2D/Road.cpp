@@ -1,4 +1,5 @@
 #include "Road.h"
+#include <crtdbg.h>
 
 //--------------------------------------------------------------------------------------
 // Default Constructor.
@@ -10,6 +11,7 @@ Road::Road(Vector2 pos)
 {
 	// Creates a "new" texture
 	texture = new Texture("./textures/Roadway.png");
+	_ASSERT(texture);
 
 	// Sets its position upon whats being passed through
 	Matrix3 changePos;

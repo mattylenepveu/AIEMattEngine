@@ -110,11 +110,13 @@ public:
 		return m_pData[index];
 	}
 
+	// Tested
 	int Size()
 	{
 		return m_nUsed;
 	}
 
+	// Tested
 	int Capacity()
 	{
 		return m_nCapacity;

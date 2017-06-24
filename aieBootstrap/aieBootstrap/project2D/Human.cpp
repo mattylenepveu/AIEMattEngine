@@ -1,5 +1,6 @@
 #include "Human.h"
 #include "CollisionManager.h"
+#include <crtdbg.h>
 
 //--------------------------------------------------------------------------------------
 // Default Constructor.
@@ -8,7 +9,9 @@ Human::Human()
 {
 	// Creates two "new" textures for alive and dead human
 	m_pTextureA = new Texture("./textures/Person.png");
+	_ASSERT(m_pTextureA);
 	m_pTextureB = new Texture("./textures/Blood.png");
+	_ASSERT(m_pTextureB);
 
 	// Sets the current texture to be the alive human
 	m_pCurrent = m_pTextureA;
