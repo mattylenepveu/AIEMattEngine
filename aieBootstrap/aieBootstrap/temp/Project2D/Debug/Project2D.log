@@ -1,22 +1,19 @@
-﻿  main.cpp
+﻿  Application2D.cpp
+  Generating Code...
+  Compiling...
+  main.cpp
   StateMachine.cpp
   Splash.cpp
-  Sea.cpp
-  Road.cpp
   Pause.cpp
-  ObjectPool.cpp
   Menu.cpp
   Loading.cpp
 c:\users\lenema\desktop\aiemattenginerepo\aiebootstrap\aiebootstrap\project2d\loading.cpp(93): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-  Human.cpp
-  Grass.cpp
   Game.cpp
 c:\users\lenema\desktop\aiemattenginerepo\aiebootstrap\aiebootstrap\project2d\game.cpp(22): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
 c:\users\lenema\desktop\aiemattenginerepo\aiebootstrap\aiebootstrap\project2d\game.cpp(23): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
 c:\users\lenema\desktop\aiemattenginerepo\aiebootstrap\aiebootstrap\project2d\game.cpp(35): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
 c:\users\lenema\desktop\aiemattenginerepo\aiebootstrap\aiebootstrap\project2d\game.cpp(36): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
 c:\users\lenema\desktop\aiemattenginerepo\aiebootstrap\aiebootstrap\project2d\game.cpp(47): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-  Flag.cpp
   Credits.cpp
   ChooseCar.cpp
 c:\users\lenema\desktop\aiemattenginerepo\aiebootstrap\aiebootstrap\project2d\choosecar.cpp(111): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
@@ -24,11 +21,6 @@ c:\users\lenema\desktop\aiemattenginerepo\aiebootstrap\aiebootstrap\project2d\ch
   Car.cpp
 c:\users\lenema\desktop\aiemattenginerepo\aiebootstrap\aiebootstrap\project2d\car.cpp(97): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 c:\users\lenema\desktop\aiemattenginerepo\aiebootstrap\aiebootstrap\project2d\car.cpp(100): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-  Bubble.cpp
-  Application2D.cpp
-  Generating Code...
-  Compiling...
-  Player.cpp
   Generating Code...
   Project2D.vcxproj -> C:\Users\lenema\Desktop\AIEMattEngineRepo\aieBootstrap\aieBootstrap\temp\Project2D\Debug\Project2D.exe
   Project2D.vcxproj -> C:\Users\lenema\Desktop\AIEMattEngineRepo\aieBootstrap\aieBootstrap\temp\Project2D\Debug\Project2D.pdb (Full PDB)
